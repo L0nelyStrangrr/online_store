@@ -1,0 +1,44 @@
+// 1. Basic variables
+    // 1.1 Colors
+$green: #8bc34a;
+$red: #e74c3c; 
+$dark-blue: #263238;
+$white: #fff;
+$black: #000;
+$light-gray: #f4f6f5;
+$gray: #d4d4d4;
+$dark-gray: #b5b5b5;
+$grey-blue: #9aa6ab;
+
+    // 1.2 Other variables
+
+// 2. Work variables
+    // 2.1 Colors
+$main-color: $green;
+$secondary-color: $red;
+$text-color-base: $dark-blue;
+$text-color-secondary: $white;
+$text-color-info: $grey-blue;
+
+    // 2.2 Text
+$f-family-base: 'Roboto', Arial, sans-serif;
+$f-family-footer: 'Raleway',  Arial, sans-serif;
+        // 2.2.1 Text sizes
+$f-size-base: 14px;
+$f-size-small: 12px;
+$f-size-h1: 48px;
+$f-size-h2: 36px;
+$f-size-h3: 24px;
+$f-size-h4: 22px;
+$f-size-product-card-header:18px;
+$f-size-info: 15px;
+$f-size-product-card-price: 20px;
+        // 2.2.2 Text weights:
+$f-weight-h: bold;
+$f-weight-base: medium;
+
+// Button variables:
+
+$button-green: $main-color;
+$button-red: $secondary-color;
+$border-radius: 3px;
